@@ -7,4 +7,5 @@ const createCounter = function (n) {
 }
 nestedfunc = createCounter(10)
 console.log(nestedfunc())
+nestedfunc = createCounter(1)
 console.log(nestedfunc())
